@@ -1,0 +1,128 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "transpile": {
+      "name": "transpile",
+      "command": "npm run transpile",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "postpublish": {
+      "name": "postpublish",
+      "command": "npm run postpublish",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "npm run prepublishOnly",
+      "runAtStart": false
+    },
+    "reinstall": {
+      "name": "reinstall",
+      "command": "npm run reinstall",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "unit:test": {
+      "name": "unit:test",
+      "command": "npm run unit:test",
+      "runAtStart": false
+    },
+    "e2e:test": {
+      "name": "e2e:test",
+      "command": "npm run e2e:test",
+      "runAtStart": false
+    },
+    "e2e:generate": {
+      "name": "e2e:generate",
+      "command": "npm run e2e:generate",
+      "runAtStart": false
+    },
+    "examples:prepare": {
+      "name": "examples:prepare",
+      "command": "npm run examples:prepare",
+      "runAtStart": false
+    },
+    "examples:build": {
+      "name": "examples:build",
+      "command": "npm run examples:build",
+      "runAtStart": false
+    },
+    "doc:build": {
+      "name": "doc:build",
+      "command": "npm run doc:build",
+      "runAtStart": false
+    },
+    "demo:prepare": {
+      "name": "demo:prepare",
+      "command": "npm run demo:prepare",
+      "runAtStart": false
+    },
+    "demo:start": {
+      "name": "demo:start",
+      "command": "npm run demo:start",
+      "runAtStart": false
+    },
+    "demo:build": {
+      "name": "demo:build",
+      "command": "npm run demo:build",
+      "runAtStart": false
+    },
+    "website:prepare": {
+      "name": "website:prepare",
+      "command": "npm run website:prepare",
+      "runAtStart": false
+    },
+    "website:build": {
+      "name": "website:build",
+      "command": "npm run website:build",
+      "runAtStart": false
+    },
+    "website:all": {
+      "name": "website:all",
+      "command": "npm run website:all",
+      "runAtStart": false
+    },
+    "website:watch": {
+      "name": "website:watch",
+      "command": "npm run website:watch",
+      "runAtStart": false
+    }
+  }
+}
